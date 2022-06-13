@@ -10,9 +10,9 @@ function OpeningPage(){
               Rick And Morty Fan Page
             </h1>
           </div>
-          <button className="opening-page-button animate__animated animate__fadeInDown animate__delay-3s">
+          <a href = "#" className="opening-page-button animate__animated animate__fadeInDown animate__delay-3s">
             Start your adventure here!
-          </button>
+          </a>
         </div>
       </div>
     );
