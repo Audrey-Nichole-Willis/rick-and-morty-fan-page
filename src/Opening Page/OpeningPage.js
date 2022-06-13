@@ -2,11 +2,19 @@ import React from "react";
 import "./OpeningPage.scss";
 
 function OpeningPage(){
-    return(
-        <div className="opening-page-container">
-            <h1 className="opening-page-header">Rick and Morty</h1>
-            <button className="opening-page-button">Start your adventure here!</button>
+    return (
+      <div className="opening-page-container">
+        <div className="opening page-content">
+          <div className="opening-page-header-container animate__animated animate__lightSpeedInLeft">
+            <h1 className="opening-page-header animate__animated animate__wobble animate__delay-2s">
+              Rick And Morty Fan Page
+            </h1>
+          </div>
+          <a href = "#" className="opening-page-button animate__animated animate__fadeInDown animate__delay-3s">
+            Start your adventure here!
+          </a>
         </div>
-    )
+      </div>
+    );
 }
 export default OpeningPage;

@@ -1,3 +1,33 @@
+
+//color variables
+$cavier: #f77604;
+$avacado: #B8D20B;
+$salmon: #f56c57;
+$blackSeaweed: #231b12;
+
+//typeography variables
+$headerFont: 'Schoolbell', cursive;
+$bodyFont:  'Tenor Sans', sans-serif;
+
+
+.opening-page-container{
+    background-color: $blackSeaweed;
+    font-family:$headerFont;
+    color:$avacado;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .opening-page-header{
-    color:blue;
+    font-size:5.7rem;
+}
+.opening-page-button{
+    font-family:$headerFont;
+    font-size:1.5rem;
+    background-color:$salmon;
+    color:$blackSeaweed;
+    border: 2px solid $avacado;
+    padding:3%;
+    border-radius:60%;
 }
