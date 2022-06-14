@@ -1,0 +1,21 @@
+$cavier: #f77604;
+$avacado: #B8D20B;
+$salmon: #f56c57;
+$blackSeaweed: #231b12;
+//Typeography variables
+$headerFont: 'Schoolbell', cursive;
+$bodyFont:  'Tenor Sans', sans-serif;
+
+.header-container{
+    background-color:$blackSeaweed;
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+        .header-title{
+            font-family:$headerFont;
+            color:$avacado;
+            font-size:5.7rem;
+        }
+}

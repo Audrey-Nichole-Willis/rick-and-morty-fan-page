@@ -1,0 +1,27 @@
+//Color variables
+$cavier: #f77604;
+$avacado: #B8D20B;
+$salmon: #f56c57;
+$blackSeaweed: #231b12;
+//Typeography variables
+$headerFont: 'Schoolbell', cursive;
+$bodyFont:  'Tenor Sans', sans-serif;
+
+.nav-container{
+    width:90%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+  .nav-container a{
+      text-decoration:none;
+      font-family:$headerFont;
+      color:$salmon;
+      font-size:1.5rem;
+      text-transform: uppercase;
+      margin:2%;
+  }
+   .nav-container a:hover{
+     color:$avacado;
+     transform: scale(1.1);
+ }
