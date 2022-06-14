@@ -1,15 +1,14 @@
 
-//color variables
+//Color variables
 $cavier: #f77604;
 $avacado: #B8D20B;
 $salmon: #f56c57;
 $blackSeaweed: #231b12;
-
-//typeography variables
+//Typeography variables
 $headerFont: 'Schoolbell', cursive;
 $bodyFont:  'Tenor Sans', sans-serif;
 
-
+//CSS
 .opening-page-container{
     background-color: $blackSeaweed;
     font-family:$headerFont;
@@ -18,23 +17,23 @@ $bodyFont:  'Tenor Sans', sans-serif;
     display:flex;
     justify-content:center;
     align-items:center;
-}
-.opening-page-content{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-}
-.opening-page-header{
-    font-size:5.7rem;
-}
-.opening-page-button{
-    font-family:$headerFont;
-    font-size:1.5rem;
-    background-color:$salmon;
-    color:$blackSeaweed;
-    border: 2px solid $avacado;
-    padding:3%;
-    border-radius:60%;
-    text-decoration: none;
+        .opening-page-content{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+                .opening-page-header{
+                    font-size:5.7rem;
+                }
+                .opening-page-button{
+                    font-family:$headerFont;
+                    font-size:1.5rem;
+                    background-color:$salmon;
+                    color:$blackSeaweed;
+                    border: 2px solid $avacado;
+                    padding:3%;
+                    border-radius:60%;
+                    text-decoration: none;
+                }
+        }
 }
