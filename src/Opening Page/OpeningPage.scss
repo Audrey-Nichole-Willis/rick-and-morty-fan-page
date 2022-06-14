@@ -19,6 +19,12 @@ $bodyFont:  'Tenor Sans', sans-serif;
     justify-content:center;
     align-items:center;
 }
+.opening-page-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
 .opening-page-header{
     font-size:5.7rem;
 }
