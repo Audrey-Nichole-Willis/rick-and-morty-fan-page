@@ -20,8 +20,10 @@ $bodyFont:  'Tenor Sans', sans-serif;
       font-size:1.5rem;
       text-transform: uppercase;
       margin:2%;
+      text-shadow:1px 1px $avacado;
   }
    .nav-container a:hover{
      color:$avacado;
      transform: scale(1.1);
+     text-shadow:1px 1px $cavier;
  }
