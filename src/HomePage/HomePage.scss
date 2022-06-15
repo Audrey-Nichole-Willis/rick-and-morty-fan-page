@@ -1,0 +1,48 @@
+$cavier: #f77604;
+$avacado: #B8D20B;
+$salmon: #f56c57;
+$blackSeaweed: #231b12;
+//Typeography variables
+$headerFont: 'Schoolbell', cursive;
+$bodyFont:  'Tenor Sans', sans-serif;
+.homepage-about-section{
+    margin-bottom:10%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.homepage-about-title{
+    font-size:2.5rem;
+    color:$avacado;
+    text-shadow:1px 1px $cavier;
+    font-family:$headerFont;
+}
+.homepage-about-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5%;
+        .homepage-about-text-container{
+            width:50%;
+            color:$salmon;
+            font-size:1.2rem;
+            font-family:$bodyFont;
+            border-top:10px ridge $cavier;
+            border-left:10px ridge $cavier;
+            padding:5%;
+        }
+        .homepage-about-img-container{
+            width:50%;
+            border-bottom:10px ridge $cavier;
+            border-right:10px ridge $cavier;
+            padding:5%;
+    
+        }
+            .homepage-about-img{
+                width:50%;
+                border-bottom:15px ridge $salmon;
+                border-right:15px ridge $salmon;
+                
+            }
+}
