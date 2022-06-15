@@ -13,10 +13,13 @@ $bodyFont:  'Tenor Sans', sans-serif;
     flex-direction:column;
     align-items:center;
     justify-content:center;
+    background-image: image-set("./jeremy-thomas-E0AHdsENmDg-unsplash.jpg");
+    background-size: contain;
         .header-title{
             font-family:$headerFont;
             color:$avacado;
             font-size:5.7rem;
+            text-shadow:1px 1px $cavier;
         }
         .header-img{
             width:30%;
